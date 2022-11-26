@@ -1,7 +1,9 @@
 package br.com.erudio.utils;
 
 import br.com.erudio.exceptions.UnsupportedMathOperationException;
+import org.springframework.stereotype.Component;
 
+@Component
 public class MathUtils {
 
 	public Double converterToDouble(String strNumber) {
